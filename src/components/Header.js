@@ -9,7 +9,7 @@ const Header = () => {
     <header className="header pad">
       <div className="container">
         <Link to="/" className="logo">
-          <h1>Where in the World</h1>
+          <h1>Where in the world?</h1>
         </Link>
         <button className="dark-mode" onClick={() => setDarkTheme(!darkTheme)}>
           {darkTheme ? <FaSun /> : <FaRegMoon />}

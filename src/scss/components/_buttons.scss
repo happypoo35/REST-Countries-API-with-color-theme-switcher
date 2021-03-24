@@ -8,11 +8,16 @@ button {
 
 .dark-mode {
   display: grid;
+  font-size: 1rem;
   grid-template-columns: auto auto;
   @extend %text-color;
   gap: 0.5rem;
   align-items: center;
   font-weight: 600;
+
+  @include mobile {
+    font-size: .75rem;
+  }
 
   &:hover {
     svg {
