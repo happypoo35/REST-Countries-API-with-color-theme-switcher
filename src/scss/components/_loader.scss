@@ -1,0 +1,30 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+
+  &-outer,
+  &-inner {
+    opacity: 0.1;
+  }
+
+  &-outer {
+    animation: 1.5s rotate infinite linear;
+  }
+
+  &-inner {
+    position: absolute;
+    animation: 1s rotate infinite linear;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

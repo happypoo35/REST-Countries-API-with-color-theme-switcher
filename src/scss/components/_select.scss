@@ -1,0 +1,64 @@
+.select-container {
+  position: relative;
+  z-index: 1;
+  width: min(12.5rem, 100%);
+}
+
+.select {
+  cursor: pointer;
+  user-select: none;
+  @extend %block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+  @extend %text-color-light;
+  padding: 1.125rem 1.5rem;
+  white-space: nowrap;
+
+  .active {
+    @extend %text-color;
+  }
+
+  svg {
+    fill: $Dark-Gray;
+    width: 0.625rem;
+    transition: 0.1s ease;
+
+    &.show {
+      transform: rotate(-180deg);
+    }
+  }
+}
+
+.select-list {
+  position: absolute;
+  top: calc(100% + 0.25rem);
+  @extend %block;
+  width: 100%;
+  padding: 0 1.5rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.1s ease;
+
+  &.show {
+    padding: 1rem 1.5rem;
+    max-height: 13rem;
+  }
+}
+
+.list-option {
+  cursor: pointer;
+
+  &.option-active {
+    font-weight: 800;
+  }
+
+  &:not(.option-active):hover {
+    font-weight: 600;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 0.625rem;
+  }
+}

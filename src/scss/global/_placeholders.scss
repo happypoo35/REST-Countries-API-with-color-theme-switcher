@@ -1,3 +1,33 @@
+%block {
+  background: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.5rem rgba(black, 0.06);
+}
+
+%text-color {
+  color: $Very-Dark-Blue-Text;
+}
+
+%text-color-light {
+  color: $Dark-Gray;
+}
+
+.wrapper.dark {
+  %block {
+    background: $Dark-Blue;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(black, 0.1);
+  }
+
+  %text-color {
+    color: white;
+  }
+
+  %text-color-light {
+    color: $Dim-White;
+  }
+}
+
 %tr {
   transition: 0.2s ease;
 }

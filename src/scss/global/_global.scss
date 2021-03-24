@@ -5,3 +5,43 @@
   margin: 0;
   padding: 0;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  background: $Very-Light-Gray;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pad {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+
+  @include mobile {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.main {
+  padding-top: 3rem;
+  padding-bottom: 2.75rem;
+  height: 100%;
+
+  @include tablet {
+    padding-top: 1.5rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}

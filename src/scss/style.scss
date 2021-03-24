@@ -5,5 +5,14 @@
 @import "global/typography";
 
 @import "components/buttons";
+@import "components/inputs";
+@import "components/select";
+@import "components/country";
+@import "components/loader";
+@import "components/empty-result";
+@import "components/dark-theme";
 
 @import "sections/header";
+@import "sections/search";
+@import "sections/countries-list";
+@import "sections/country-details";

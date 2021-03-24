@@ -1,0 +1,48 @@
+.wrapper.dark {
+  background: $Very-Dark-Blue;
+  color: white;
+
+  .header {
+    background: $Dark-Blue;
+    color: white;
+  }
+
+  .country:hover {
+    box-shadow: 0 0.25rem 1rem rgba(black, 0.2);
+  }
+
+  .btn {
+    background: $Dark-Blue;
+    box-shadow: 0 0.125rem 0.5rem rgba(black, 0.1);
+    color: $Dim-White;
+
+    &:hover {
+      box-shadow: 0 0.25rem 1rem rgba(black, 0.2);
+    }
+  }
+
+  li {
+    span {
+      color: rgba(white, 0.6);
+    }
+  }
+
+  .input-container {
+    svg {
+      fill: rgba(white, 0.5);
+    }
+  }
+
+  input {
+    color: white;
+  }
+
+  .loader {
+    &-outer,
+    &-inner {
+      * {
+        fill: white;
+      }
+    }
+  }
+}

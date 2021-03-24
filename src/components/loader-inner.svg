@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.777" height="72.777" viewBox="0 0 72.777 72.777">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_114" data-name="Rectangle 114" width="72.777" height="72.777" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_113" data-name="Rectangle 113" width="72.777" height="72.777" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="loader-inner" opacity="1">
+    <g id="Group_29" data-name="Group 29" clip-path="url(#clip-path)">
+      <g id="Group_28" data-name="Group 28">
+        <g id="Group_27" data-name="Group 27" clip-path="url(#clip-path-2)">
+          <path id="Path_8" data-name="Path 8" d="M14.889,63.889a5.979,5.979,0,0,1-4.242-1.758,36.444,36.444,0,0,1,0-51.484,6,6,0,0,1,8.484,8.484,24.436,24.436,0,0,0,0,34.516,6,6,0,0,1-4.242,10.242" fill="#1d1d1b"/>
+          <path id="Path_9" data-name="Path 9" d="M57.889,63.889a6,6,0,0,1-4.242-10.242,24.436,24.436,0,0,0,0-34.516,6,6,0,1,1,8.484-8.484,36.444,36.444,0,0,1,0,51.484,5.979,5.979,0,0,1-4.242,1.758" fill="#1d1d1b"/>
+          <g id="Group_26" data-name="Group 26" opacity="0">
+            <g id="Group_25" data-name="Group 25">
+              <g id="Group_24" data-name="Group 24" clip-path="url(#clip-path)">
+                <rect id="Rectangle_111" data-name="Rectangle 111" width="72.777" height="72.777" transform="translate(0 0)" fill="#1d1d1b"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

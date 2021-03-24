@@ -1,10 +1,11 @@
 $Dark-Blue: hsl(209, 23%, 22%); // Dark Mode Elements
 $Very-Dark-Blue: hsl(207, 26%, 17%); // Dark Mode Background
-$Very-Dark-Blue: hsl(200, 15%, 8%); // Light Mode Text
+$Very-Dark-Blue-Text: hsl(200, 15%, 8%); // Light Mode Text
 $Dark-Gray: hsl(0, 0%, 52%); // Light Mode Input
 $Very-Light-Gray: hsl(0, 0%, 98%); // Light Mode Background
 $White: hsl(0, 0%, 100%); // Dark Mode Text & Light Mode Elements
+$Dim-White: hsla(0, 0%, 100%, 0.5); // Dark Mode Dimmed Text
 
 $laptop: 1024px;
 $tablet: 768px;
-$mobile: 425px;
+$mobile: 576px;
