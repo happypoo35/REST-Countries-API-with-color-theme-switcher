@@ -1,7 +1,7 @@
 import React, { useCallback, useContext, useEffect, useState } from "react";
 
-const urlDefault = "https://restcountries.eu/rest/v2/all";
-const url = "https://restcountries.eu/rest/v2/name/";
+const urlDefault = "https://restcountries.com/v2/all";
+const url = "https://restcountries.com/v2/name/";
 const AppContext = React.createContext();
 
 const getLocalStorage = () => {
